@@ -24,7 +24,7 @@ ls -la `which discord`
 
 # find and update JSON file using sed command
 
-find /usr/share/discord -name build_info.json -exec sudo sed -i.orig 's/\."version"/\."version"/' {} \;
+find /usr/share/discord -name build_info.json -exec sudo sed -i.orig 's/\.9/\.10/' {} \;
 
 # display both the updated JSON and backup ( original )
 
